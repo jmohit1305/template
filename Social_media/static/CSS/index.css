@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+#left {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url("images/bg1.png");
+    border: #212529 9px solid;
+    left: 0%;
+}
+
+#right {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #212529;
+    left: 0%;
+}
+
+#welcome {
+    position: absolute;
+    top: 40vh;
+    overflow: hidden;
+}
+
+#welcome>p {
+    font-size: 8vw;
+    text-shadow: 2px 2px 20px black;
+    transform: translateY(180px);
+}
+
+#amigo {
+    position: absolute;
+    top: 60vh;
+    overflow: hidden;
+}
+
+#amigo>p {
+    font-size: 6vw;
+    text-shadow: 2px 2px 20px black;
+    transform: translateY(180px);
+}
+
+#login-container {
+    position: relative;
+    top: 40vh;
+    width: 100%;
+    height: 40vh;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    border-bottom: solid grey 2px;
+}
+
+#login-form {
+    position: absolute;
+}
+
+#login-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#swing-container {
+    position: absolute;
+    top: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#helper-text {
+    position: absolute;
+    color: grey;
+    top: 40vh;
+    text-align: center;
+}
+
+#helper-text2 {
+    position: absolute;
+    color: grey;
+    top: 64vh;
+    text-align: center;
+}
+
+#signup-container {
+    position: relative;
+    top: 15vh;
+    width: 100%;
+    height: 64vh;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    border-bottom: solid grey 2px;
+}
+
+#signup-form {
+    position: absolute;
+}
+
+#signup-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@keyframes up {
+    from {
+        transform: translateY(180px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}

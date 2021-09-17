@@ -1,0 +1,9 @@
+After cloning :-
+
+1) import the database , "iconnect" from "static->SQL->iconnect" to your local host .
+2) two users are already present you can browse in the users table in the database !
+3) this only consist of signup and login /logout . profile page is just to check so please don't judge 
+4) logout link is present in the profile page.
+5) try signing up , logging in and try to check all error messeges and 
+responsiveness of website except of the profile page .
+6) make sure your local host is running in active state !
