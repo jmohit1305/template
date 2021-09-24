@@ -1,9 +1,0 @@
-# @app.route("/htmltopdf/<name>")
-# def html_to_pdf(name):
-#     path_wkhtmltopdf = r'C:\Program Files (x86)\wkhtmltopdf\bin\wkhtmltopdf.exe'
-#     config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
-#     pdf = pdfkit.from_url("http://127.0.0.1:5000/render/candidate_resume", False, configuration=config)
-#     response = make_response(pdf)
-#     response.headers["Content-Type"] = "application/pdf"
-#     response.headers["Content-Disposition"] = f"inline; filename={name}.pdf"
-#     return response

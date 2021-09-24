@@ -1,6 +1,0 @@
-pip install Flask
-pip install docx
-pip install docxtpl
-pip install pdfkit
-pip install docx2pdf
-pip install img2pdf
