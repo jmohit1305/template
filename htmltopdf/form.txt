@@ -1,0 +1,37 @@
+firstName
+lastName
+email
+gender
+ph_no
+address
+dob
+aim
+
+
+
+education = [{
+    'institute' : "",
+    'degree' : "",
+    'board' : "",
+    'duration' : "",
+    'marks' : "",
+    'description' : "",    (optional)
+}]
+
+skills = [{
+    "topic" : "",
+    "level" : "",
+}]
+
+workExp = [{
+    'title' : "",
+    'empType' : "",
+    'companyName' : "",
+    'duration' : "",
+    'description' : "",
+}]
+
+
+(optionals)
+projects = []
+certifications = []
